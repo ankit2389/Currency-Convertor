@@ -1,0 +1,36 @@
+/* src/FrontPage.css */
+
+.frontpage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f8f9fa;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #white;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.9;
+}
